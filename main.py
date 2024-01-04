@@ -1,5 +1,4 @@
-from app.models import module1,module2
+import app.models
 
-
-module1.hello()
-module2.hello2()
+app.models.module1.hello()
+app.models.module2.hello2()
